@@ -1,0 +1,206 @@
+<div id="header">
+    <div class="container">
+        <div id="welcomeLine" class="row">
+            <div class="span6">Welcome!<strong> User</strong></div>
+            <div class="span6">
+                <div class="pull-right">
+                    <span class="btn btn-mini">$155.00</span>
+                    <a [routerLink]="['/cart']"><span class="btn btn-mini btn-primary"><i
+                                class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar ================================================== -->
+        <div id="logoArea" class="navbar">
+            <a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="navbar-inner">
+                <a class="brand" [routerLink]="['/home']"><img src="themes/images/logo.png" alt="Bootsshop" /></a>
+                
+                <search></search>
+
+                <ul id="topMenu" class="nav pull-right">
+                    <li class=""><a [routerLink]="['/specialOffer']">Specials Offer</a></li>
+                    <li class=""><a href="normal.html">Delivery</a></li>
+                    <li class=""><a href="contact.html">Contact</a></li>
+                    <li class="">
+                        <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span
+                                class="btn btn-large btn-success">Login</span></a>
+                        <div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login"
+                            aria-hidden="false">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3>Login Block</h3>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form-horizontal loginFrm">
+                                    <div class="control-group">
+                                        <input type="text" id="inputEmail" placeholder="Email">
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="password" id="inputPassword" placeholder="Password">
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="checkbox">
+                                            <input type="checkbox"> Remember me
+                                        </label>
+                                    </div>
+                                </form>
+                                <button type="submit" class="btn btn-success">Sign in</button>
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End====================================================================== -->
+<div id="carouselBlk">
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <a href="register.html"><img style="width:100%" src="themes/images/carousel/1.png"
+                            alt="special offers" /></a>
+                    <div class="carousel-caption">
+                        <h4>Second Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <a href="register.html"><img style="width:100%" src="themes/images/carousel/2.png" alt="" /></a>
+                    <div class="carousel-caption">
+                        <h4>Second Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <a href="register.html"><img src="themes/images/carousel/3.png" alt="" /></a>
+                    <div class="carousel-caption">
+                        <h4>Second Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <a href="register.html"><img src="themes/images/carousel/4.png" alt="" /></a>
+                    <div class="carousel-caption">
+                        <h4>Second Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <a href="register.html"><img src="themes/images/carousel/5.png" alt="" /></a>
+                    <div class="carousel-caption">
+                        <h4>Second Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <a href="register.html"><img src="themes/images/carousel/6.png" alt="" /></a>
+                    <div class="carousel-caption">
+                        <h4>Second Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+</div>
+<div id="mainBody">
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar ================================================== -->
+            <div id="sidebar" class="span3">
+                <div class="well well-small"><a id="myCart" [routerLink]="['/cart']"><img
+                            src="themes/images/ico-cart.png" alt="cart">3 Items in your cart <span
+                            class="badge badge-warning pull-right">$155.00</span></a></div>
+
+                <category></category>
+
+                <br />
+
+                <latest></latest>
+
+                <br />
+                <div class="thumbnail">
+                    <img src="/themes/images/payment_methods.png" title="Bootshop Payment Methods"
+                        alt="Payments Methods">
+                    <div class="caption">
+                        <h5>Payment Methods</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar end=============================================== -->
+            <div class="span9">
+               <router-outlet></router-outlet>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer ================================================================== -->
+<div id="footerSection">
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+                <h5>ACCOUNT</h5>
+                <a href="login.html">YOUR ACCOUNT</a>
+                <a href="login.html">PERSONAL INFORMATION</a>
+                <a href="login.html">ADDRESSES</a>
+                <a href="login.html">DISCOUNT</a>
+                <a href="login.html">ORDER HISTORY</a>
+            </div>
+            <div class="span3">
+                <h5>INFORMATION</h5>
+                <a href="contact.html">CONTACT</a>
+                <a href="register.html">REGISTRATION</a>
+                <a href="legal_notice.html">LEGAL NOTICE</a>
+                <a href="tac.html">TERMS AND CONDITIONS</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+            <div class="span3">
+                <h5>OUR OFFERS</h5>
+                <a href="#">NEW PRODUCTS</a>
+                <a href="#">TOP SELLERS</a>
+                <a href="special_offer.html">SPECIAL OFFERS</a>
+                <a href="#">MANUFACTURERS</a>
+                <a href="#">SUPPLIERS</a>
+            </div>
+            <div id="socialMedia" class="span3 pull-right">
+                <h5>SOCIAL MEDIA </h5>
+                <a href="#"><img width="60" height="60" src="themes/images/facebook.png" title="facebook"
+                        alt="facebook" /></a>
+                <a href="#"><img width="60" height="60" src="themes/images/twitter.png" title="twitter"
+                        alt="twitter" /></a>
+                <a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube"
+                        alt="youtube" /></a>
+            </div>
+        </div>
+        <p class="pull-right">&copy; Bootshop</p>
+    </div><!-- Container End -->
+</div>
